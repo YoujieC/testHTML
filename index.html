@@ -1,0 +1,24 @@
+ <html>
+<head>
+    <title>Text Animation</title>
+    <style>
+        canvas[id=LeftCanvas]{border: 1px solid red; background-color:black; }
+        canvas[id=FrontCanvas]{border: 1px solid green; background-color:black; }
+        canvas[id=RightCanvas]{border: 1px solid red; background-color:black; }
+        canvas[id=RearCanvas]{border: 1px solid green; background-color:black; }
+        .subdiv{width: 2800px;}
+        .text{margin: 0; width: 290px;}
+    </style>
+ 
+ <script type="text/javascript" src="test.js"></script>
+ 
+</head>
+<body onload="init();">
+    <div class="subdiv">
+        <canvas id="LeftCanvas" width="1550" height="400"></canvas>
+        <canvas id="FrontCanvas" width="1200" height="400"></canvas>
+        <canvas id="RightCanvas" width="1550" height="400"></canvas>
+        <canvas id="RearCanvas" width="1200" height="400"></canvas>
+    </div>
+</body>
+</html>
